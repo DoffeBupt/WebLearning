@@ -1,0 +1,25 @@
+一般情况下源代码会被保存为utf-8
+在html文档中乖乖制定就可以辣
+一般在head里好好的声明就好
+用 charset=utf-8
+在head里加
+<meta charset = "utf-8">
+meta元素可以让页面尺寸实现自适应，即手机，电脑之类的打开都可以，根据终端适配
+所以只用在head里加一行就可以
+<meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+
+SEO 搜索引擎优化
+百度官方优化指南：用百度搜就可以hhh
+比如用meta description写摘要,给网页制定关键词
+关键词：
+<meta name = "keywords" content="学习，编程">
+摘要：
+<meta name = "description" content = "我爱学习，学习让我快乐，这个是我用来学习的网页">
+作者：
+<meta name = "author" content = "DOFFE">
+上边这一大坨，实际上不会显示在网页里，不过这个是给搜索引擎看的
+
+自动刷新跳转，第一个是刷新，第二个是5s，第三个是去的链接
+<meta http-equiv = "refresh" content = "5; http://www.taobao.com">
+
+meta查询指南：http://man.fishc.org/page/meta.html
