@@ -1,0 +1,26 @@
+style 用来订制各种网页信息
+style 可以出现在head body等等部分
+可以包含多个
+三个属性
+media
+scoped 指示作用范围，不过一般浏览器已经不吃这个了
+type 指定样式的类型 值：text css
+
+在head里的style元素里
+提前可以设置各个类型元素的格式
+后期的各个元素会根据这个改编
+
+具体的style根据声明的先后顺序走
+越往后声明的越有意义
+
+text-align: center; 居中
+margin-left: 60%; 左边距
+text-indent: 32px; 段落属性，缩进
+font-size: 16px;字体大小
+line-height: 32px;行高
+
+<style media = "print">
+media 为"print"打印设定专属样式
+
+<style media-"screen and (min-width: 512px) and (max-width: 1024px)">
+在一定的条件下进行设置风格
