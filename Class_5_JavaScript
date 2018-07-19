@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>定义文档内嵌脚本</title>
+    <meta charset="UTF-8">
+    <meta name = "author" content = "DOFFE">
+    <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+    <meta name = "keywords" content="学习，编程">
+	<meta name = "description" content = "我爱学习，学习让我快乐，这个是我用来学习的网页">
+	<meta name = "author" content = "DOFFE">
+	<script type="text/javascript" src = "Class5ADD.js">
+	</script>
+	<noscript>
+		<p>
+			辣鸡
+		</p>
+	</noscript>
+</head>
+<body>
+	<p>
+		"啊？？？？"
+	</p>
+	<h1>DOFFE</h1>
+	<h2>Change the World By Program</h2>
+	<p>
+		学霸：隐匿在人间有头脑的高智商人物，社交范围广泛，融合契合度高，琴棋书画样样精通，高端大气上档次。 图画、摄影里衬托主体事物的景象。2. 舞台上或电影里的布景3. 对人物、事件起作用的历史情况或现实情况。4. 指靠山及支持者。5. 其他烘托主体的要素。 图画、摄影里衬托主体事物的景象。2. 舞台上或电影里的布景3. 对人物、事件起作用的历史情况或现实情况。4. 指靠山及支持者。5. 其他烘托主体的要素。 图画、摄影里衬托主体事物的景象。2. 舞台上或电影里的布景3. 对人物、事件起作用的历史情况或现实情况。4. 指靠山及支持者。5. 其他烘托主体的要素。
+	</p>
+	<p>
+		学神(学帝、学仙、学圣)：高大帅气，青春靓丽，不食人间烟火，天天游走在高难度的练习册当中却依然风华正茂。
+	</p>
+	<p>
+		学民：智商均衡，膜拜学霸，却瞧不起学渣等人物。他们只有一个信念，总有一天超越学霸，因此艰苦奋斗。
+	</p>
+	<p>
+		学渣(学灰)：智商处于半疯癫状态，兢兢业业，刻苦学习，却总是不得志。
+	</p>
+	<p>
+		学水：已经不能用智商与努力来评判他们了，他们已经自甘堕落，自暴自弃好多年。
+	</p>
+</body>
+
+	<script type="text/javascript" src = "Class5_Patch.js">
+	</script>
+
+</html>

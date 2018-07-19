@@ -1,0 +1,41 @@
+html5：
+HTML+CSS+JS
+html:骨骼架构
+css:变得好看
+js：提供交互
+JS：实际上比较像C语言和Self语言
+<script> 标签用于在 HTML 文档中加入脚本（例如 JavaScript）。
+script 元素既可以直接定义内嵌脚本语句，也可以通过 src 属性引用外部脚本文件。
+
+	<script type="text/javascript">
+		document.write("I LOVE DOFFE");
+	</script>
+内嵌，直接插入的东西
+
+	<script type="text/javascript" src = "Class5ADD.js">
+	</script>
+外套脚本，直接把外边的脚本接进来
+注意，外套脚本的时候不允许同时内嵌脚本
+
+html 解析的时候是单线程进行的
+当他遇到js脚本的时候，会先去暂停运行js脚本
+
+所以有的时候js脚本搞替换内容的时候，一定要注意他所在的位置
+
+有时候可以先完成解析，再执行脚本
+
+延迟执行脚本：
+defer
+一种方法是丢到最后，另外一种方法是用defer参数，相当于直接跑到末尾
+PS：defer只能用外部的
+
+异步执行脚本：
+async（慎用）
+遇到这个js的时候同时进行解析
+js获取解析完成以后，停下来执行，然后继续解析
+很有用对于那些对于时间不敏感的脚本
+只能用外部的，并且执行顺序不可控，比如有的时候某些脚本要用到其他的脚本定义的值等等
+
+当辣鸡浏览器不跑js的时候：
+<noscript> 标签用来向不支持 JavaScript 的浏览器显示一些替代内容。
+可以丢进去各种元素，而不只是文本～
